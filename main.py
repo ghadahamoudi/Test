@@ -46,3 +46,29 @@ if is_online:
     print("Hello online")
 else:
     print("Not for online")
+
+
+
+#Type Casting
+
+name = "Ghada"
+age = 26
+gpa = 3.2
+is_student = True
+
+print(int(gpa))
+print(type(age))
+print(type(gpa))
+print(type(is_student))
+print("Hello there i'm Ghada Hamoudi")
+
+
+
+# input() input function
+fname = input("What is your name?")
+print(f"Hello {fname}")
+
+age = input("What is your age?")
+age = int(age)
+age = age + 1
+print(f"your age {age}")
